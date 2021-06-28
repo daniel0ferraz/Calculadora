@@ -1,0 +1,28 @@
+* {
+  font-family: 'Roboto';
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(to right, rgb(83, 105, 118), rgb(41, 46, 73));
+}
+.calculator {
+  height: 320px;
+  width: 235px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-auto-rows: 1fr 48px 48px 48px 48px 48px;
+}
